@@ -14,9 +14,9 @@
 
 - 🌱 I’m currently learning Python and other programming languages
 
-- 📫 How to reach me - don't :)
+- 📫 How to reach me - kiron@duck.com
 
-- ⚡ Fun fact :- Bacon and Music🎵 are the reasons to live.
+- ⚡ Fun fact :- I like computers. 
 <pr>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kierank07&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&repo=convoychat"
     alt="kierank07" /></p>
