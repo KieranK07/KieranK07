@@ -12,11 +12,11 @@
 <p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
 
 
-- 🌱 I’m currently learning Python and other programming languages. I'm also a member of the VEX V5 Team 46Z.
+- 🌱 I’m currently learning Python and other programming languages like C++ and C#.
 
 - 📫 How to reach me - um idk please dont
 
-- ⚡ Fun fact :- I like computers. 
+- ⚡ Fun fact :- I like computers and minecraft.
 <pr>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kierank07&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&repo=convoychat"
     alt="kierank07" /></p>
