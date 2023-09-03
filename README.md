@@ -14,7 +14,7 @@
 
 - 🌱 I’m currently learning Python and other programming languages. I'm also a member of the VEX V5 Team 46Z.
 
-- 📫 How to reach me - kiron@duck.com
+- 📫 How to reach me - um idk please dont
 
 - ⚡ Fun fact :- I like computers. 
 <pr>
