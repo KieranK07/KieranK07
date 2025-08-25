@@ -1,22 +1,16 @@
-<h1 align="center">Hi 👋, I'm Kieron!</h1>
-<h3 align="center">I do random stuff with code.🌟.</h3>
+<h1 align="center">Hi, I'm Kieron!</h1>
+<h3 align="center">I like computers 🌟.</h3>
 
 <br>
 
 <p align="right"> <h3>Profile Views</h3> <img src="https://komarev.com/ghpvc/?username=kierank07&label=Profile%20views&color=0e75b6&style=flat"
     alt="kierank07" /> 
   </p>
-
-<br>
-
-<p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
-
-
-- 🌱 I’m currently learning Python and other programming languages like C++ and C#.
+- 🌱 I’m currently learning Python and C++.
 
 - 📫 How to reach me - um idk please dont
 
-- ⚡ Fun fact :- I like computers and minecraft.
+- ⚡ Fun fact :- I'm suuper Catholic ✝️❤️‍🔥
 <pr>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kierank07&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&repo=convoychat"
     alt="kierank07" /></p>
