@@ -8,7 +8,7 @@
   </p>
 - 🌱 I’m currently learning Python and C++.
 
-- 📫 How to reach me - um idk please dont
+- 📫 How to reach me - check out chadnerd.lol
 
 - ⚡ Fun fact :- I'm suuper Catholic ✝️❤️‍🔥
 <pr>
