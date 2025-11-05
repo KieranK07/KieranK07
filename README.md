@@ -10,7 +10,7 @@
 
 - 📫 How to reach me - check out chadnerd.lol
 
-- ⚡ Fun fact :- I'm suuper Catholic ✝️❤️‍🔥
+- ⚡ Fun fact :- I'm super Catholic ✝️❤️‍🔥
 <pr>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kierank07&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&repo=convoychat"
     alt="kierank07" /></p>
