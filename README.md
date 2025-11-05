@@ -9,27 +9,27 @@
 
 ---
 
-### 🧠 About Me
-- 🎓 Freshman at **Franciscan University of Steubenville (Class of 2029)**  
-- 🌱 Currently learning **Python**, **C++**, and **ethical pentesting**  
-- ⚡ Fun fact: **I’m super Catholic ✝️❤️‍🔥**  
-- 📫 Reach me at: [**chadnerd.lol**](https://chadnerd.lol)  
+### About Me
+- Freshman at **Franciscan University of Steubenville (Class of 2029)**  
+- Currently learning **Python**, **C++**, and **ethical pentesting**  
+- Fun fact: **I’m super Catholic ✝️❤️‍🔥**  
+- Reach me at: [**chadnerd.lol**](https://chadnerd.lol)  
 
 ---
 
-### 🧩 Tech Interests
-💡 **Cybersecurity** • **AI & Machine Learning** • **Open Source** • **Automation** • **System Design**
+### Tech Interests
+**Cybersecurity** • **AI & Machine Learning** • **Open Source** • **Automation** • **System Design**
 
 ---
 
-### 🛠️ Languages & Tools
+### Languages & Tools
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,cpp,linux,git,github,vscode,raspberrypi,html,css" />
 </p>
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=kierank07&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&text_color=ffffff" alt="GitHub stats" />
 </p>
@@ -40,6 +40,6 @@
 
 <p align="center">
   <a href="https://github.com/kierank07">
-    <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&color=00C4FF&center=true&vCenter=true&width=600&lines=I+love+computers+🖥️;Building+cool+stuff+in+Python+🐍;Proudly+Catholic+✝️❤️‍🔥;Learning+Cybersecurity+and+AI+🔐🤖">
+    <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&color=00C4FF&center=true&vCenter=true&width=600&lines=Building+cool+stuff+in+Python;Proudly+Catholic+✝️❤️‍🔥;Learning+Cybersecurity+and+AI">
   </a>
 </p>
