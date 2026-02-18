@@ -10,7 +10,7 @@
 ---
 
 ### About Me
-- Freshman at **Franciscan University of Steubenville (Class of 2029)**  
+- Sophomore at **Franciscan University of Steubenville (Class of 2029)**  
 - Currently learning **Python**, **C++**, and **ethical pentesting**  
 - Fun fact: **I’m super Catholic ✝️❤️‍🔥**  
 - Reach me at: [**chadnerd.lol**](https://chadnerd.lol)  
