@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="terminal">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0a120c"/>
+      <stop offset="100%" stop-color="#071009"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)" stroke="#17773B"/>
+  <circle cx="36" cy="32" r="7" fill="#3DFD7D"/>
+  <circle cx="60" cy="32" r="7" fill="#23C85C"/>
+  <circle cx="84" cy="32" r="7" fill="#17773B"/>
+  <text x="32" y="88" fill="#D8FFE8" font-family="JetBrains Mono, monospace" font-size="28">kieran@machine:~$ whoami</text>
+  <text x="32" y="132" fill="#8FE6AC" font-family="JetBrains Mono, monospace" font-size="24">offsec · systems · embedded · ai</text>
+  <text x="32" y="176" fill="#3DFD7D" font-family="JetBrains Mono, monospace" font-size="24">always building_</text>
+</svg>
