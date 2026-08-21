@@ -11,5 +11,8 @@
   <circle cx="84" cy="32" r="7" fill="#17773B"/>
   <text x="32" y="88" fill="#D8FFE8" font-family="JetBrains Mono, monospace" font-size="28">kieran@machine:~$ whoami</text>
   <text x="32" y="132" fill="#8FE6AC" font-family="JetBrains Mono, monospace" font-size="24">offsec · systems · embedded · ai</text>
-  <text x="32" y="176" fill="#3DFD7D" font-family="JetBrains Mono, monospace" font-size="24">always building_</text>
+  <text x="32" y="176" fill="#3DFD7D" font-family="JetBrains Mono, monospace" font-size="24">always building</text>
+  <text x="262" y="176" fill="#3DFD7D" font-family="JetBrains Mono, monospace" font-size="24">_
+    <animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </text>
 </svg>
