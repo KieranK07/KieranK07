@@ -1,9 +1,7 @@
 ### `~$ whoami`
 
 Computer science at **Franciscan University of Steubenville**, class of 2029.
-Offensive security, low level systems, and hardware that does something when you plug it in.
-Catholic. Always building.
-
+Offensive security, low level systems, random hardware hacking and the occasional reverse engineering project.
 
 
 ### `~$ cat focus.txt`
