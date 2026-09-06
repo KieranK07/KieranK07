@@ -12,14 +12,9 @@ Computer science at **Franciscan University of Steubenville**, class of 2029.
 Offensive security, low level systems, random hardware hacking and the occasional
 reverse engineering project.
 
-Most of what's below started with something on my desk annoying me. A Windows PC
-with no network, next to a Quest 3 that had WiFi and was already plugged into it.
-A lecture I wanted transcribed on the GPU box in the other room without touching anything.
-A degree planner that would tell me a course existed and not much else.
-
-The offsec side mostly shows up here as not trusting the client: the FPS below does
-its hit detection on the server, and the daily delivery game re-scores every run from
-its replay rather than believing the time the browser reports.
+Most of this started with something on my desk annoying me. The Quest 3 was already
+plugged into a PC that had no network, so I spent a weekend making the headset be
+the network.
 
 ### `~$ ps aux | grep building`
 
