@@ -22,8 +22,11 @@ import math
 import os
 import random
 import re
+import ssl
+import subprocess
 import sys
 import tempfile
+import urllib.error
 import urllib.request
 import xml.dom.minidom
 from pathlib import Path
@@ -90,6 +93,34 @@ def log(msg):
 # ----------------------------------------------------------------------------
 # project list
 # ----------------------------------------------------------------------------
+def _get_json(url, headers):
+    """GET url; returns (payload, Link header). Raises on any problem.
+    python.org builds of Python on macOS ship without a CA bundle and fail
+    every https request, so on an SSL error the same request is retried
+    through curl, which uses the system trust store."""
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=20) as resp:
+            return json.load(resp), resp.headers.get("Link", "")
+    except urllib.error.URLError as e:
+        if not isinstance(getattr(e, "reason", None), ssl.SSLError):
+            raise
+    hdr = tempfile.NamedTemporaryFile(delete=False)
+    hdr.close()
+    try:
+        cmd = ["curl", "-sS", "--fail", "--max-time", "30", "-D", hdr.name]
+        for k, v in headers.items():
+            cmd += ["-H", f"{k}: {v}"]
+        body = subprocess.run(cmd + [url], capture_output=True, text=True, check=True, timeout=40).stdout
+        link = ""
+        with open(hdr.name, encoding="utf-8", errors="replace") as f:
+            for ln in f:
+                if ln.lower().startswith("link:"):
+                    link = ln.split(":", 1)[1].strip()
+        return json.loads(body), link
+    finally:
+        os.unlink(hdr.name)
+
+
 def fetch_repos():
     """Every repo owned by USER, as the API returns it. Raises on any problem."""
     url = f"{API_BASE}/users/{USER}/repos?per_page=100&sort=pushed&type=owner"
@@ -103,9 +134,7 @@ def fetch_repos():
         headers["Authorization"] = f"Bearer {token}"
     repos = []
     for _ in range(5):                                   # pagination guard
-        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=20) as resp:
-            page = json.load(resp)
-            link = resp.headers.get("Link", "")
+        page, link = _get_json(url, headers)
         if not isinstance(page, list):
             raise ValueError(f"unexpected payload: {type(page).__name__}")
         repos.extend(page)
@@ -418,10 +447,16 @@ def main():
     if too_long:
         log(f"skipping names wider than the terminal: {', '.join(too_long)}")
     if not names:
-        log("no project list from any source; not writing")
+        if args.out.exists():
+            log("nothing to build from; leaving the existing SVG untouched")
+            return 0
+        log("nothing to build from and no existing SVG")
         return 1
 
     shown, layout = fit(names)
+    if not shown:
+        log("nothing fits the terminal width; leaving the existing SVG untouched")
+        return 0 if args.out.exists() else 1
     svg = build_svg(shown, layout)
     tmp = tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=args.out.parent, delete=False)
     with tmp:

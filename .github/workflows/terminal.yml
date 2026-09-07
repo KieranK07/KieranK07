@@ -1,0 +1,45 @@
+# Rebuilds assets/terminal.svg from the current public repos so the
+# `ls -t ~/projects` output in the README header cannot go stale.
+#
+# Commits to main only when the file actually changed. snake.yml runs at
+# 00:00 and 12:00 UTC and writes to the `output` branch; this runs once a day
+# in between and writes to main. Pushes made with GITHUB_TOKEN do not trigger
+# other workflows, so a commit from here does not re-run the snake.
+
+name: regenerate terminal
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regenerate-terminal
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: regenerate terminal.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 assets/terminal.py
+
+      - name: commit if changed
+        run: |
+          if git diff --quiet -- assets/terminal.svg; then
+            echo "terminal.svg unchanged, nothing to commit"
+            exit 0
+          fi
+          git config user.name "Kieran Kelly"
+          git config user.email "kieranjokelly@gmail.com"
+          git add assets/terminal.svg
+          git commit -m "Regenerate terminal.svg from current repos"
+          git pull --rebase origin main
+          git push origin HEAD:main
