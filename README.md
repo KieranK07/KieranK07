@@ -12,10 +12,6 @@ Computer science at **Franciscan University of Steubenville**, class of 2029.
 Offensive security, low level systems, random hardware hacking and the occasional
 reverse engineering project.
 
-Most of what I have here is just something that was bothering me. I've got a note
-taking app because I hated having to write stuff down, the whole backquest repo is
-me being too lazy to wait for a dongle, etc.
-
 ### `~$ ps aux | grep building`
 
 | project | what it does | stack |
