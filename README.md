@@ -12,6 +12,10 @@ Computer science at **Franciscan University of Steubenville**, class of 2029.
 Offensive security, low level systems, random hardware hacking and the occasional
 reverse engineering project.
 
+<p align="center">
+  <img src="./assets/divider.svg" alt="" />
+</p>
+
 ### `~$ ps aux | grep building`
 
 | project | what it does | stack |
@@ -28,6 +32,10 @@ reverse engineering project.
 | **[pcb-business-card](https://github.com/KieranK07/pcb-business-card)** | A business card that's a printed circuit board. Gerbers and drill files ready to send to a fab. | KiCad |
 | **[KieranK07.github.io](https://github.com/KieranK07/KieranK07.github.io)** | Source for chadnerd.lol: a single-file portfolio page with a Three.js ambient scene, no build step, on GitHub Pages. | HTML · Tailwind · Three.js |
 
+<p align="center">
+  <img src="./assets/divider.svg" alt="" />
+</p>
+
 ### `~$ cat contact`
 
 `site`     → **[chadnerd.lol](https://chadnerd.lol)**
@@ -35,6 +43,10 @@ reverse engineering project.
 `linkedin` → **[kieran-kelly07](https://www.linkedin.com/in/kieran-kelly07/)**
 <br>
 `discord`  → **[kieron.exe](https://discord.com/users/788394648494276628)**
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="" />
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KieranK07/KieranK07/output/snake.svg" alt="contribution snake" />
