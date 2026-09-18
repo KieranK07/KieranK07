@@ -30,7 +30,11 @@ reverse engineering project.
 
 ### `~$ cat contact`
 
-[chadnerd.lol](https://chadnerd.lol)
+`site`     → **[chadnerd.lol](https://chadnerd.lol)**
+<br>
+`linkedin` → **[kieran-kelly07](https://www.linkedin.com/in/kieran-kelly07/)**
+<br>
+`discord`  → **[kieron.exe](https://discord.com/users/788394648494276628)**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KieranK07/KieranK07/output/snake.svg" alt="contribution snake" />
