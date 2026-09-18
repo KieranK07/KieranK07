@@ -3,12 +3,17 @@
 #
 # Commits to main only when the file actually changed. snake.yml runs at
 # 00:00 and 12:00 UTC and writes to the `output` branch; this runs once a day
-# in between and writes to main. Pushes made with GITHUB_TOKEN do not trigger
-# other workflows, so a commit from here does not re-run the snake.
+# in between and writes to main, plus immediately on any README edit. Pushes
+# made with GITHUB_TOKEN do not trigger other workflows, so a commit from
+# here does not re-run the snake, and does not re-trigger this workflow either.
 
 name: regenerate terminal
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
   schedule:
     - cron: "17 6 * * *"
   workflow_dispatch:
